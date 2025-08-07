@@ -126,7 +126,7 @@ export default function StaffPage() {
           {staffList.map((Staff) => (
             <div key={Staff.id} className="bg-[#014421] p-5 rounded-2xl shadow-lg flex gap-4 items-center">
               <img
-                src={`http://127.0.0.1:8090/api/files/staff/${Staff.id}/${Staff.Gambar}`}
+                src={`https://pocketbase-app-production.up.railway.app/api/files/staff/${Staff.id}/${Staff.Gambar}`}
                 alt={`Foto ${Staff.Nama}`}
                 className="w-20 h-20 object-cover rounded-xl border-2 border-[#ccffcc]"
               />
