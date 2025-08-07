@@ -39,7 +39,7 @@ export default function StafSection() {
           {staff.map((item) => (
             <div key={item.id} className="card shadow bg-base-100 text-center p-4">
               <img
-                src={`http://127.0.0.1:8090/api/files/Staff/${item.id}/${item.Gambar}`}
+                src={`https://pocketbase-app-production.up.railway.app/api/files/Staff/${item.id}/${item.Gambar}`}
                 alt={item.Nama}
                 className="w-32 h-32 mx-auto rounded-full object-cover mb-4"
               />

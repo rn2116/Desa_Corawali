@@ -42,7 +42,7 @@ export default function BeritaSection() {
             <div key={item.id} className="card bg-base-100 shadow">
               <figure>
                 <img
-                  src={`http://127.0.0.1:8090/api/files/Berita/${item.id}/${item.Foto}`}
+                  src={`https://pocketbase-app-production.up.railway.app/api/files/berita/${item.id}/${item.Foto}`}
                   alt={item.Judul}
                   className="w-full h-64 object-cover"
                 />
