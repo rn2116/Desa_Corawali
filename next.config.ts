@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true, // <- tambahkan ini juga
   },
   images: {
-    domains: ['pocketbase-app-production.up.railway.app'],
+    domains: ['https://pocketbase-app-production.up.railway.app'],
   },
 };
 
