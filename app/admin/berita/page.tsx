@@ -108,7 +108,7 @@ export default function BeritaPage() {
           {beritaList.map((item) => (
             <div key={item.id} className="bg-[#014421] rounded-2xl p-5 shadow-lg flex flex-col gap-3">
               <img
-                src={`https://pocketbase-app-production.up.railway.app/api/files/berita/${item.id}/${item.Foto}`}
+                src={`https://pocketbase-app-production.up.railway.app/api/files/Berita/${item.id}/${item.Foto}`}
                 alt={`Gambar ${item.Judul}`}
                 className="w-full h-48 object-cover rounded-xl border-2 border-[#ccffcc]"
               />
