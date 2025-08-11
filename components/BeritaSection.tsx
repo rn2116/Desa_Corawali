@@ -85,7 +85,7 @@ export default function BeritaSection() {
             </button>
             <h2 className="text-2xl font-bold mb-4">{selectedBerita.Judul}</h2>
             <img
-              src={`http://127.0.0.1:8090/api/files/Berita/${selectedBerita.id}/${selectedBerita.Foto}`}
+              src={`https://pocketbase-app-production.up.railway.app/api/files/berita/${selectedBerita.id}/${selectedBerita.Foto}`}
               alt={selectedBerita.Judul}
               className="w-full h-64 object-cover mb-4 rounded"
             />
