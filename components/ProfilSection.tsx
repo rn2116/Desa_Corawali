@@ -5,17 +5,17 @@ import Image from "next/image";
 export default function ProfilSection() {
   // Daftar foto (cukup tulis /nama_file karena otomatis dari folder public)
   const images = [
-    "/kantor1.jpg",
-    "/kantor2.jpg",
-    "/kantor3.jpg",
-    "/kantor4.jpg",
-    "/kantor5.jpg",
-    "/kantor6.jpg",
-    "/kantor7.jpg",
-    "/kantor8.jpg",
-    "/kantor9.jpg",
-    "/kantor10.jpg",
-    "/kantor11.jpg",
+    "/kantor1.JPG",
+    "/kantor2.JPG",
+    "/kantor3.JPG",
+    "/kantor4.JPG",
+    "/kantor5.JPG",
+    "/kantor6.JPG",
+    "/kantor7.JPG",
+    "/kantor8.JPG",
+    "/kantor9.JPG",
+    "/kantor10.JPG",
+    "/kantor11.JPG",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
